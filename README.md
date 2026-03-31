@@ -1,97 +1,57 @@
+# 🎮 TicTacToy Game (iOS)
 
-# 📌 TicTacToe Game
+A simple and interactive Tic-Tac-Toe (XO) game built for iOS using modern development practices. This project demonstrates game logic, UI design, and user interaction handling in an iOS environment.
 
-A simple and interactive **Tic-Tac-Toe (XO) game** built using basic programming concepts. This project demonstrates game logic, user interaction, and UI handling for a classic 2-player game.
+---
 
-----------
+## 📱 Features
 
-## 🎮 Features
+- ✅ Player vs Player mode
+- 🤖 Optional AI opponent (basic logic)
+- 🎯 Win / Draw detection
+- 🔄 Restart game functionality
+- 🎨 Clean and responsive UI
+- 📊 Score tracking (optional)
 
--   🧑‍🤝‍🧑 Two-player mode
--   🎯 Real-time game interaction
--   ✅ Win detection (row, column, diagonal)
--   🤝 Draw detection
--   🔄 Restart / Reset game option
--   💡 Simple and user-friendly interface
+---
 
-----------
+## 🧠 Game Logic
+
+The game follows classic Tic-Tac-Toe rules:
+
+- 3x3 grid board
+- Two players take turns (X and O)
+- First player to align 3 marks wins:
+  - Horizontally
+  - Vertically
+  - Diagonally
+- If all cells are filled → Draw
+
+---
 
 ## 🛠️ Tech Stack
 
--   Language: (તમારું actual language અહીં લખો – e.g., Java / JavaScript / Python)
--   UI: (HTML/CSS / Android XML / Console – જે લાગુ પડે તે)
--   IDE: (Android Studio / VS Code / etc.)
+- **Language:** Swift
+- **Framework:** UIKit / SwiftUI
+- **Architecture:** MVC / MVVM (based on implementation)
+- **IDE:** Xcode
 
-----------
+---
 
-## 📂 Project Structure
+## 🚀 Getting Started
 
-TicTakToc-game/  
-│  
-├── src/ / app/ / main files  
-├── assets (if any)  
-├── README.md  
-└── other configuration files
+### Prerequisites
 
-----------
+- macOS
+- Xcode (latest version recommended)
+- iOS Simulator / Real Device
 
-## 🚀 How to Run
+---
 
-### ▶️ Clone Repository
+### Installation
 
-git clone https://github.com/dharmin-gujarati/TicTakToc-game.git  
-cd TicTakToc-game
+1. Clone the repository:
 
-### ▶️ Run Project
+```bash
+git clone https://github.com/dharmin-gujarati/TicTacToy-game.git
 
--   If Java:
-
-javac Main.java  
-java Main
-
--   If Web:  
-    Open `index.html` in browser
--   If Android:  
-    Open project in Android Studio and run on emulator/device
-
-----------
-
-## 🎯 How to Play
-
-1.  Player 1 → **X**
-2.  Player 2 → **O**
-3.  Players take turns
-4.  First to align 3 marks wins:
-    -   Horizontal
-    -   Vertical
-    -   Diagonal
-5.  If grid is full → Draw
-
-----------
-
-## 📸 Screenshots
-
-> (અહીં screenshots ઉમેરો)
-
-----------
-
-## 🤝 Contributing
-
-Contributions are welcome!
-
--   Fork the repo
--   Create new branch
--   Make changes
--   Submit Pull Request
-
-----------
-
-## 📜 License
-
-This project is open-source and free to use.
-
-----------
-
-## 👨‍💻 Author
-
-**Dharmin Gujarati**
